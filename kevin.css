@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Playfair+Display&display=swap');
+
+h2{
+    font-family:'BIZ UDPMincho', serif; ;
+    display: flex;
+    justify-content: center;
+}
+p,ul{
+    font-family:  'Playfair Display', serif;;
+}
+.informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.formulariosorteo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    
+}
+.rellenar{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-family: 'BIZ UDPMincho', serif; ;
+    font-size: 14pt; 
+    gap: 50px;  
+}
+input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 106, 101);
+    width: 400px;
+    border-style: hidden;
+    border-radius: 10px;
+    margin: 0;
+    gap: 20px;
+    padding: 10px; 
+   display: flex;
+  flex-direction: column;
+  align-content: center;
+  border:none;
+}
+div{
+    text-align: center; 
+}
+button{
+    font-size: 15pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius:10%;
+    border: none;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-image: url(https://i.etsystatic.com/20175890/r/il/d2df4d/2203522477/il_340x270.2203522477_nv1y.jpg);
+    background-color:  #128d0e;
+    color: rgb(0, 0, 0);
+}
+button:active{
+    background-color: cornflowerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input:hover{
+   opacity: 0.6;
+    background-color: rgb(154, 162, 168);
+    color: black;
+    font-size: medium;
+}
+.img1, .img2, .img3{
+    filter:brightness(1.1) ;
+    mix-blend-mode: multiply;
+    width: 300px;
+    
+}
+.img1{
+    float: inline-start;
+}
+.img2{
+    float: inline-end;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+.parrafo{
+    margin-top: 70px;
+    text-align: 
+}
